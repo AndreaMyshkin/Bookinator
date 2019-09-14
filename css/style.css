@@ -10,6 +10,8 @@ body {
 
 /* Navigation menu */
 header {
+  position:fixed;
+  width:100%;
   background-color: white;
   display: flex;
   height: 70px;
@@ -133,7 +135,9 @@ footer {
 .icon i.fab:hover {
   color: rgb(7, 255, 193);
 }
-
+ul.social{
+padding:0;
+}
 
 
 /* Carousel */
@@ -144,7 +148,7 @@ footer {
   background-position: left 10% bottom 90%;
   background-repeat: no-repeat;
  height: 88vh;
-  position: relative;
+  /* position: relative; */
 }
 
 #carousel h1 {
