@@ -159,3 +159,10 @@ footer {
 .year{
    margin: 15px
 }
+
+@media screen and (max-width:480px){
+  #menu{
+    display: flex;
+    flex-direction: row;
+  }
+}
