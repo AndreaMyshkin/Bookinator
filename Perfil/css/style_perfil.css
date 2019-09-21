@@ -287,4 +287,14 @@ footer {
       height: 50vh;
     }
 
+    #menu{
+      flex-direction: column;
+      height: 195px;
+    }
+    .main-nav__items{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
   }
