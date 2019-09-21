@@ -282,3 +282,20 @@ font-weight: bold;
   margin: 0 auto;
   padding:1.2rem;
 }
+
+@media screen and (max-width: 40rem) {
+  #carousel h1 {
+    display:none;
+  }
+  
+  .all-books-recommended{
+      grid-template-areas:
+      'book-recomended'
+       'book-recomended'
+       'book-recomended';
+      grid-template-columns: repeat(1, 65%);
+      grid-gap: 5px;
+      
+    }
+  g
+}
