@@ -13,6 +13,7 @@
     background-color: white;
     display: flex;
     height: 70px;
+    width: 100vw;
     align-items: center;
     justify-content: space-between;
     vertical-align: middle;
@@ -113,8 +114,9 @@
     flex-direction: column;
   }
 
-  .gnr-clases{
+.gnr-clases{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 200px;
     align-self: flex-start;
@@ -125,6 +127,16 @@
     padding:20px; 
 } 
 
+.gnr-clases div{
+  background: #84A5DA;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 200px;
+  margin-bottom: 5px; 
+  text-align: center;
+  color: #170969;
+}
+
 .perfil-gnr div{
     display: flex;
     text-decoration: none;
@@ -133,6 +145,8 @@
     margin-top:30px;
 
 }
+
+
 
 .ext-recom,
 .ext-leidos,
@@ -151,16 +165,40 @@
 .ext-leidos-list,
 .ext-contacts-list{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 200px;
+    height: 150px;
     align-self: flex-start;
     flex-direction: column;
     border-radius: 10px;
     border: 2px solid black;
     margin: 20px;
     padding:20px; 
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
 
+.ext-recom-list div,
+.ext-leidos-list div,
+.ext-contacts-list div{
+  background: #84A5DA;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 200px;
+  margin-bottom: 5px; 
+  text-align: center;
+  color: #170969;
+
+}
+
+.ext-recom-list div:hover,
+.ext-leidos-list div:hover,
+.ext-contacts-list div:hover{
+  background: #6876E8;
+  color:#170969;
+  font-weight: bold;
+}
 
 
 /* Footer */
@@ -209,4 +247,13 @@ footer {
   
     color: rgb(7, 255, 193);
   
+  }
+
+
+
+
+  @media screen and (max-width: 400px){
+    body{
+      display: none;
+    }
   }
