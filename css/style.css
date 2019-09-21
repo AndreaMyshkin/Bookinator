@@ -282,3 +282,10 @@ font-weight: bold;
   margin: 0 auto;
   padding:1.2rem;
 }
+
+@media screen and (max-width: 400px) {
+  #carousel h1 {
+    display:none;
+  }
+  
+}
