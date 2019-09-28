@@ -1,0 +1,48 @@
+@media screen and (max-width: 800px){
+    .main-header__brand i{
+      margin-left: 0;
+    }
+    .perfil{
+      justify-content: center;
+      height: 50vh;
+
+    }
+    .datos{
+      justify-content: center;
+      align-self: center;
+      padding: 0;
+      padding-right: 0;
+    }
+    
+    .gnr{
+      display:none;
+    }
+
+    .ext-recom{
+      display: none;
+    }
+
+    .ext-leidos{
+      display: none;
+    }
+
+    .ext-contacts{
+      display: none;
+    }
+    .menu-disp{
+      display: block;
+      height: 50vh;
+    }
+
+    #menu{
+      flex-direction: column;
+      height: 195px;
+    }
+    .main-nav__items{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-inline-start:0; 
+    }
+
+  }

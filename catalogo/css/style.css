@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -160,9 +161,43 @@ footer {
    margin: 15px
 }
 
+#menu{
+  display: flex;
+}
+
 @media screen and (max-width:480px){
   #menu{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height: 195px;
   }
+  .main-nav__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+#logo{
+  margin: 0;
+  
 }
+}
+=======
+@charset "UTF-8";
+/* Error: expected "{".
+ *     ,
+ * 176 |   }
+ *     |    ^
+ *     '
+ *   style.css 176:4  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a     ╷\a 176 │   }\a     │    ^\a     ╵\a   style.css 176:4  root stylesheet';
+}
+
+/*# sourceMappingURL=style.css.map */
+>>>>>>> catalogo
