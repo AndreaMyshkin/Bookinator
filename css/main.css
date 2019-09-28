@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-container {
+  min-height: 150vh;
+}
+
+#carousel {
+  background-image: url("../assets/images/collage.jpg");
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: left 10% bottom 90%;
+  background-repeat: no-repeat;
+  height: 88vh;
+  position: relative;
+}
+#carousel h1 {
+  color: white;
+  background: rgba(0, 0, 0, 0.55);
+  text-shadow: rgba(0, 0, 0, 0.07) 0 0 10px;
+  position: absolute;
+  bottom: 35%;
+  left: 3%;
+  font-size: 4rem;
+}
+
+#recommended {
+  margin-top: 60px;
+}
+#recommended .section-title {
+  color: #07ffc1;
+  text-align: center;
+  font-size: 2rem;
+}
+#recommended .all-books-recommended {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas: "book-recomended book-recomended book-recomended";
+  grid-template-columns: repeat(3, 18%);
+  grid-template-rows: 340px;
+  justify-content: center;
+  grid-gap: 10px;
+  text-align: center;
+}
+
+#book-recomended1 {
+  padding: 1rem;
+  border: 3px solid #551a8b;
+  border-radius: 5px;
+}
+#book-recomended1 p {
+  padding: 0;
+  margin: 0;
+}
+#book-recomended1 .book-recommended-image {
+  background-image: url("../assets/images/book_recommended_1.jpg");
+  box-sizing: border-box;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#book-recomended2 {
+  padding: 1rem;
+  border: 3px solid #551a8b;
+  border-radius: 5px;
+}
+#book-recomended2 p {
+  padding: 0;
+  margin: 0;
+}
+#book-recomended2 .book-recommended-image-two {
+  background-image: url("../assets/images/book_recommended_2.jpg");
+  box-sizing: border-box;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#book-recomended3 {
+  padding: 1rem;
+  border: 3px solid #551a8b;
+  border-radius: 5px;
+}
+#book-recomended3 p {
+  padding: 0;
+  margin: 0;
+}
+#book-recomended3 .book-recommended-image-tree {
+  background-image: url("../assets/images/book_recommended_3.jpg");
+  box-sizing: border-box;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.see_more a {
+  text-decoration: none;
+  color: #551a8b;
+  font-weight: 700;
+  padding: 0.2rem 0.2rem;
+  font-size: 14px;
+}
+
+.see_more a:hover {
+  text-decoration: none;
+  color: #07ffc1;
+  font-weight: 700;
+  padding: 0.2rem 0.2rem;
+  font-size: 14px;
+}
+
+#caracteristics {
+  background: #551a8b;
+  margin-top: 5rem;
+  padding: 0.5rem;
+}
+#caracteristics .section-title {
+  color: #07ffc1;
+  text-align: center;
+  font-size: 2rem;
+}
+#caracteristics .section-title {
+  color: white;
+  margin: 2rem;
+}
+#caracteristics .caracteristics-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#caracteristics .caracteristic {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 24rem;
+}
+#caracteristics .caracteristic-description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-style: 20px;
+}
+#caracteristics .img-caracteristic img {
+  background: white;
+  width: 100px;
+  border: 2px solid #757575;
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 1.2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
