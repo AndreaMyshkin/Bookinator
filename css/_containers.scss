@@ -1,0 +1,92 @@
+@import "variables"
+
+/*Navigation-menu*/
+
+header {
+    background-color: $primary-color;
+    display: flex;
+    height: $nav-height;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+  
+  }
+
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+  }
+
+
+  .main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+
+
+  .main-nav__item a, .see_more a {
+    text-decoration: none;
+    color: $secondary-color;
+    font-weight: 700;
+    padding: 0.2rem .2rem;
+    font-size: 14px;
+  }
+
+  .logo-item {
+    border: 2px solid $terciary-color;
+    padding: .2rem 1rem;
+
+    a{
+        color: $secondary-color);
+    }
+  }
+
+
+  .logo-item:hover {
+    border: 2px solid $secondary-color;
+  }
+
+  .logo-item a:hover {
+    color: $secondary-color;
+  
+  }
+
+  .main-header__brand {
+    text-decoration: none;
+  
+  }
+  
+
+  .main-header__brand:hover {
+    color: $gray-color;
+  
+  }
+
+  .main-header__brand i {
+  
+    margin-left: 2rem;
+    color: $terciary-color;
+    vertical-align: middle;
+    font-size: 1.5rem;
+  
+  }
+
+  .hover-item a:hover {
+  
+    border-left: $terciary-color 2px solid;
+    color: $terciary-color;
+  
+  }
+
+  a .logo-title {
+    font-size: 1.15rem;
+    font-weight: bold;
+    padding: 0 10px;
+    color: $secondary-color;
+  }
+  
+
+  a .logo-title:hover {
+    color: $terciary-color;
+  }
