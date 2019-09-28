@@ -13,11 +13,13 @@
     background-color: white;
     display: flex;
     height: 70px;
-    width: 100vw;
     align-items: center;
     justify-content: space-between;
     vertical-align: middle;
     box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+  }
+  #menu{
+    display: flex;
   }
 
   a{
@@ -41,14 +43,14 @@
   
   .main-nav__item a {
     text-decoration: none;
-    color: rgb(85, 26, 139);
+    color: #551a8b;
     font-weight: 700;
     padding: 0.2rem .2rem;
     font-size: 14px;
   }
   
   .logo-item {
-    border: 2px solid rgb(7, 255, 193);
+    border: 2px solid #07ffc1;
     padding: .2rem 1rem;
   }
   
@@ -69,8 +71,7 @@
   
   .main-header__brand {
     text-decoration: none;
-  
-  }
+   }
   
   .main-header__brand:hover {
     color: #757575;
@@ -131,7 +132,7 @@
   background: #84A5DA;
   border: 3px solid black;
   border-radius: 5px;
-  width: 200px;
+  width: 19vw;
   margin-bottom: 5px; 
   text-align: center;
   color: #170969;
@@ -185,7 +186,7 @@
   background: #84A5DA;
   border: 3px solid black;
   border-radius: 5px;
-  width: 200px;
+  width: 10vw;
   margin-bottom: 5px; 
   text-align: center;
   color: #170969;
@@ -249,11 +250,57 @@ footer {
   
   }
 
+  .menu-disp{
+    display:none;
+  }
 
 
 
-  @media screen and (max-width: 400px){
-    body{
+  @media screen and (max-width: 800px){
+    .main-header__brand i{
+      margin-left: 0;
+    }
+    .perfil{
+      justify-content: center;
+      height: 50vh;
+
+    }
+    .datos{
+      justify-content: center;
+      align-self: center;
+      padding: 0;
+      padding-right: 0;
+    }
+    
+    .gnr{
+      display:none;
+    }
+
+    .ext-recom{
       display: none;
     }
+
+    .ext-leidos{
+      display: none;
+    }
+
+    .ext-contacts{
+      display: none;
+    }
+    .menu-disp{
+      display: block;
+      height: 50vh;
+    }
+
+    #menu{
+      flex-direction: column;
+      height: 195px;
+    }
+    .main-nav__items{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-inline-start:0; 
+    }
+
   }
