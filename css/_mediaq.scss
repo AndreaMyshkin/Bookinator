@@ -44,5 +44,20 @@
       align-items: center;
       padding-inline-start:0; 
     }
-
+    #carousel h1 {	  
+      display:none;	    
+    }	  
+  
+    #recommended{
+      .all-books-recommended{
+        grid-template-areas:
+        'book-recomended'
+         'book-recomended'
+         'book-recomended';
+        grid-template-columns: repeat(1, 65%);
+        grid-gap: 5px;
+  
+      }
+    } 
   }
+  
