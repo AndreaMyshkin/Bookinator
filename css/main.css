@@ -350,6 +350,47 @@ a .logo-title:hover {
   color: #07ffc1;
 }
 
+.user-area {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px auto 70px;
+}
+
+.user {
+  border: 3px solid #551a8b;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.user:hover {
+  border: 3px solid #07ffc1;
+}
+
+.user-area img {
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+}
+
+.user-name {
+  color: #551a8b;
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.user-name:hover {
+  color: #07ffc1;
+}
+
+.user-container {
+  width: 80%;
+  margin: auto;
+}
+
 @media screen and (max-width: 800px) {
   .main-header__brand i {
     margin-left: 0;
