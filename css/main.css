@@ -102,7 +102,7 @@ body {
 
 .see_more a {
   text-decoration: none;
-  color: #551a8b;
+  color: #07ffc1;
   font-weight: 700;
   padding: 0.2rem 0.2rem;
   font-size: 14px;
@@ -350,45 +350,45 @@ a .logo-title:hover {
   color: #07ffc1;
 }
 
-.user-area {
+.user-container {
+  width: 80%;
+  margin: auto;
+}
+.user-container h1 {
+  color: #07ffc1;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2rem;
+}
+.user-container .user-area {
   width: 100%;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 70px auto 70px;
+  margin: 40px 0px 40px;
 }
-
-.user {
+.user-container .user-area .user {
   border: 3px solid #551a8b;
   margin: 5px;
   border-radius: 5px;
 }
-
-.user:hover {
+.user-container .user-area .user:hover {
   border: 3px solid #07ffc1;
 }
-
-.user-area img {
-  width: 80px;
-  height: 80px;
+.user-container .user-area img {
+  width: 50px;
+  height: 50px;
   margin: 15px;
 }
-
-.user-name {
+.user-container .user-area .user-name {
   color: #551a8b;
   display: flex;
   justify-content: center;
   font-family: "Lato", sans-serif;
   font-weight: bold;
 }
-
-.user-name:hover {
+.user-container .user-area .user-name:hover {
   color: #07ffc1;
-}
-
-.user-container {
-  width: 80%;
-  margin: auto;
 }
 
 @media screen and (max-width: 800px) {
